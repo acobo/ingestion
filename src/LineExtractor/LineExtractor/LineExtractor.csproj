@@ -1,0 +1,52 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Accord" Version="3.8.2-alpha" />
+    <PackageReference Include="Accord.Audio" Version="3.8.2-alpha" />
+    <PackageReference Include="Accord.Audition" Version="3.8.2-alpha" />
+    <PackageReference Include="Accord.Fuzzy" Version="3.8.2-alpha" />
+    <PackageReference Include="Accord.Imaging" Version="3.8.2-alpha" />
+    <PackageReference Include="Accord.MachineLearning" Version="3.8.2-alpha" />
+    <PackageReference Include="Accord.Math" Version="3.8.2-alpha" />
+    <PackageReference Include="Accord.Neuro" Version="3.8.2-alpha" />
+    <PackageReference Include="Accord.Statistics" Version="3.8.2-alpha" />
+    <PackageReference Include="Accord.Video" Version="3.8.2-alpha" />
+    <PackageReference Include="Accord.Video.FFMPEG.x64" Version="3.8.2-alpha" />
+    <PackageReference Include="Accord.Vision" Version="3.8.2-alpha" />
+    <PackageReference Include="DynamicData" Version="7.14.2" />
+    <PackageReference Include="Extended.Wpf.Toolkit" Version="4.5.1" />
+    <PackageReference Include="Geo" Version="1.0.1" />
+    <PackageReference Include="MathNet.Filtering" Version="0.7.0" />
+    <PackageReference Include="MathNet.Numerics" Version="5.0.0" />
+    <PackageReference Include="MathNet.Numerics.Data.Matlab" Version="5.0.0" />
+    <PackageReference Include="Numpy" Version="3.11.1.33" />
+    <PackageReference Include="OpenCvSharp4" Version="4.8.0.20230708" />
+    <PackageReference Include="OpenCvSharp4.runtime.win" Version="4.8.0.20230708" />
+    <PackageReference Include="OpenCvSharp4.WpfExtensions" Version="4.8.0.20230708" />
+    <PackageReference Include="Pandas.NET" Version="0.5.1" />
+    <PackageReference Include="ReactiveUI" Version="19.4.1" />
+    <PackageReference Include="ReactiveUI.Fody" Version="19.4.1" />
+    <PackageReference Include="ReactiveUI.WPF" Version="19.4.1" />
+    <PackageReference Include="SharpMap" Version="1.2.0" />
+    <PackageReference Include="SharpMap.UI.WPF" Version="1.2.0" />
+    <PackageReference Include="System.Reactive" Version="6.0.1-preview.1" />
+    <PackageReference Include="Wpf.Controls.PanAndZoom" Version="2.3.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="PostProcessing\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\code\cs\NodeNetwork\NodeNetworkToolkit\NodeNetworkToolkit.csproj" />
+    <ProjectReference Include="..\..\..\..\..\code\cs\NodeNetwork\NodeNetwork\NodeNetwork.csproj" />
+  </ItemGroup>
+
+</Project>

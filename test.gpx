@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- Created from DAS measurements - ver. 0.1.1 --><!-- Track 1 = <enumerate object at 0x0000028AE1D56FC0> TrackPoints + 0 Placemarks --><!-- Track Statistics (based on Total Time | Time in Movement): -->
+<!--  Distance = 4.754km -->
+<!--  Duration = 0:14:14.95 -->
+<!--  Altitude Gap = 10.00 m -->
+<!--  Max Speed = 50.00 km/h -->
+<!--  Avg Speed = 20.02 km/h -->
+<!--  Direction = ENE -->
+<!--  Activity = car -->
+<!--  Altitudes = Raw --><gpx version="1.0"    creator="GPXcreator">   xmlns="http://www.topografix.com/GPX/1/0"    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"    xsi:schemaLocation="http://www.topografix.com/GPX/1/0    http://www.topografix.com/GPX/1/0/gpx.xsd"><name>GPS DAS Logger</name><desc>Tracktest1</desc><time>2023-07-23T23:07:23.072307Z</time><keywords>car</keywords>
+<bounds minlat="43.46426667" minlon="-3.85682167" maxlat="43.47305500" maxlon="-3.79943667" />
+<trkpt lat="43.46430000" lon="-3.85679000"><ele>18</ele><time>2023-07-31T12:23:12.315009Z</time><speed>13.889</speed></trkpt>
+<trkpt lat="43.46426667" lon="-3.85679333"><ele>18</ele><time>2023-07-31T12:23:12.650159Z</time><speed>11.111</speed></trkpt>
+<trkpt lat="43.46431500" lon="-3.85682167"><ele>18</ele><time>2023-07-31T12:23:13.016663Z</time><speed>8.333</speed></trkpt>
+<trkpt lat="43.47305500" lon="-3.79943667"><ele>8</ele><time>2023-07-31T12:37:26.226750Z</time><speed>5.556</speed></trkpt></gpx>
